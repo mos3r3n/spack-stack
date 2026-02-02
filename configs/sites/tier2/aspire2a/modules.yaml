@@ -1,0 +1,8 @@
+modules:
+  default:
+    enable::
+    - tcl
+    tcl:
+      include:
+      - cray-mpich
+      - python
